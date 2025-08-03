@@ -1,66 +1,22 @@
-# 🧠 Loan Default Prediction ML Project
+# 📊 Telco Customer Segmentation & Churn Prediction with SVC
 
-This project aims to predict whether a borrower will default on a loan based on tabular data including credit score, income, employment type, loan purpose, and more. The dataset used is the Lending Club public dataset.
-
----
-
-## 🔍 Problem Statement
-
-The objective is to build a machine learning model that can predict loan default risk based on customer and loan attributes.
+A complete machine learning project using the Telco Customer Churn dataset to perform **customer segmentation and churn prediction** using **Support Vector Classifier (SVC)** with a fully leak-proof pipeline and explainable ML techniques.
 
 ---
 
-## 📦 Dataset
+## 🚀 Project Goals
 
-**Dataset Source**: [Lending Club Loan Data](https://www.kaggle.com/wordsforthewise/lending-club)
-
-You’ll need to download the dataset and place it in the `data/` directory as `loan_data.csv`.
-
----
-
-## 🔧 ML Concepts Covered
-
-- Handling missing values (drop + imputation)
-- Encoding categorical variables (Ordinal + One-Hot)
-- Feature engineering (e.g., ratios, bins)
-- ML Pipelines
-- Cross-validation
-- Model building: XGBoost, Random Forest
-- Model evaluation: Confusion Matrix, ROC AUC
-- Feature Importance: SHAP, Model-based
-- Data leakage detection and prevention
+- Segment customers using churn behavior and feature patterns.
+- Predict churn using Support Vector Classifier (SVC).
+- Build a **leak-proof ML pipeline** using `Pipeline` and `ColumnTransformer`.
+- Perform rigorous **EDA**, **feature engineering**, and **evaluation**.
+- Use **SHAP** and **Permutation Importance** for explainability.
 
 ---
 
-## 🗂️ Milestones
+## 📂 Dataset
 
-1. **EDA**
-   - Distribution analysis
-   - Data leakage checks
-
-2. **Preprocessing**
-   - Imputation
-   - Encoding (One-hot + Ordinal)
-   - Pipeline integration
-
-3. **Modeling**
-   - Training with XGBoost and Random Forest
-   - Cross-validation
-
-4. **Evaluation**
-   - Confusion Matrix
-   - ROC AUC
-   - Precision/Recall
-
-5. **Interpretability**
-   - SHAP analysis
-   - Feature importance plots
+- **Source**: [Telco Customer Churn Dataset - Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
+- Contains demographic info, service usage, and customer status (churned or not).
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/loan-default-prediction-ml.git
-cd loan-default-prediction-ml
